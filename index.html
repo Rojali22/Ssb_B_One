@@ -109,7 +109,12 @@
   </section>
 
   <footer>
-    <p>© 2025 SSB Garuda Muda. All rights reserved.</p>
+     <p>© <span id="year"></span> SSB B-One. All rights reserved.</p>
+
+  <script>
+    // Ambil elemen span dengan id "year" dan set isinya ke tahun sekarang
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
   </footer>
 </body>
 </html>
